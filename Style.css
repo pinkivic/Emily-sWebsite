@@ -1,0 +1,83 @@
+* {
+    font-family: "Helvetica";
+    color: #e1f1e1;
+}
+
+body {
+    background-image: url("Emily/Wave/WaveClose.jpg");
+    background-color: #252322;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size:cover;
+    position:relative;
+}
+
+
+.menu-primary-container {
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    z-index: -1;
+}
+
+#logo-image {
+    z-index: -2;
+}
+
+/* text css above hero image*/
+.hero-text {
+    text-align: center;
+    margin: auto;
+    padding: 10vw;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.hero-text h2{
+    font-size: 6vw;
+}
+.hero-text p{
+    font-size: 4vw;
+}
+
+
+
+/* ArtTitle */
+.ArtTitle{
+    text-align: center;
+    margin: auto;
+    padding: 10vw;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.ArtTitle h2{
+    font-size: 3vw;
+}
+.ArtTitle p{
+    font-size: 1.5vw;
+}
+
+
+/* carousel */
+.carousel-item{
+    height: 40vw;
+
+}
+.carousel-item img{
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 40vw;
+}
+
+
+
+
+/* Drunk */
+.Drunk{
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+}
+
