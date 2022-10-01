@@ -38,23 +38,23 @@ body::-webkit-scrollbar {
 
 .revealLeft{
     position: relative;
-    transform: translateX(300px);
+    transform: translateX(100vw);
     opacity: 0;
     transition: all 1.5s ease;
 }
 .revealLeft.active{
-    transform: translateY(0px);
+    transform: translateX(40vw);
     opacity: 1;
 }
 
 .revealRight{
     position: relative;
-    transform: translateX(-300px);
+    transform: translateX(-50vw);
     opacity: 0;
     transition: all 1.5s ease;
 }
 .revealRight.active{
-    transform: translateY(0px);
+    transform: translateX(0vw);
     opacity: 1;
 }
 
@@ -104,6 +104,23 @@ body::-webkit-scrollbar {
     left: 0;
     height: 40vw;
 }
+
+
+
+/* Wave */
+
+.waveCeramic{
+    width: 50vw;
+    height: 50vw;
+}
+.sketch{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+}
+
+
 
 
 
